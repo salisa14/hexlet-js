@@ -1,5 +1,6 @@
 {
   "name": "hexlet",
+  "type": "module",
   "version": "1.0.0",
   "description": "hexlet try 1",
   "main": "index.js",
@@ -7,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/salisa14/hexlet-js.git"
   },
   "author": "Salisa",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/salisa14/hexlet-js/issues"
   },
-  "homepage": "https://github.com/salisa14/hexlet-js#readme"
+  "homepage": "https://github.com/salisa14/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
